@@ -2,7 +2,10 @@ package com.ait.demo;
 
 public class GitApp {
 
+ 
+private Map<String,Object> cache=new HashMap<String,Object>();
 private static final String name="abc";
+ 
 	
 	public void addData(String data) {
 		System.out.println("Data:"+data);
