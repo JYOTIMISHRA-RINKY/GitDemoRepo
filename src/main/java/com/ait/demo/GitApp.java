@@ -1,6 +1,8 @@
 package com.ait.demo;
 
 public class GitApp {
+
+private Map<String,Object> cache=new HashMap<String,Object>();
 	
 	public void addData(String data) {
 		System.out.println("Data:"+data);
